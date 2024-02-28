@@ -1,0 +1,114 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+.ul a{
+    display: inline-block;
+    color:white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+    
+}
+.ul{
+    padding-left: 40%;
+    padding-bottom: 5%;
+}
+a:hover{
+    background-color:#edededed;
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    border-radius: 12px;
+    font-style: italic, ;
+    transition-duration: 2s;
+  transition-delay: 0s;
+}
+.serv{
+    text-indent: 20%;
+}
+.serv h2,h3{
+  color: red;
+}
+.serv p{
+    color: white;
+    font-weight: lighter;
+}
+
+.center{
+    float: right;
+}
+
+.split-up{
+ background-image: url(broken\ phone.jpg);
+ height: 50%;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.user{
+    flex: 1 0 8rem;
+}
+.first{
+    flex: 1 0 8rem;
+}
+.texta{
+    flex: 1 0 8rem;
+}
+.split-down{
+    background-color: #edededee;
+    padding-bottom: 20px
+}
+.split-down h2{
+color: red;
+font-weight: lighter;
+text-align: center;
+}
+
+.split-down form{
+        max-width: 500px;
+        margin: auto;
+        background:rgba(182, 182, 182, 0.4);
+        padding: 10px; 
+        border-radius: 20px;   
+}
+
+.sub{
+    background-color: #d60609c3;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 14px;
+    flex: 1 0 4rem;
+}
+
+.split-down label{
+    background-color: #ebeddf;
+    color:#333a2f;
+    font-weight: lighter;
+}
+
+footer{
+    color: red;
+    text-align: center;
+}
+
+iframe{
+    align-items: center;
+}
+
+
